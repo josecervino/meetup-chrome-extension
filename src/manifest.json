@@ -1,34 +1,19 @@
 {
   "name": "Meetup Chrome Extension",
-  "version": "0.0.1",
-  "manifest_version": 2,
-  "description": "A Chrome Extension that makes it easy to rmeotely manage your meetup groups and events.",
-  "homepage_url": "https://meetup.com",
-  "icons": {
-    "16": "assets/images/icon-v1.png",
-    "48": "assets/images/icon-v1.png",
-    "128": "assets/images/icon-v1.png"
-  },
-  "default_locale": "en",
+  "options_page": "options.html",
   "background": {
-    "page": "background.html",
-    "persistent": true
+    "page": "background.html"
   },
-  "options_page": "options_custom/index.html",
   "browser_action": {
-    "default_icon": "assets/images/icon-v1.png",
-    "default_title": "browser action demo",
-    "default_popup": "browser_action/browser_action.html"
+    "default_popup": "popup.html",
+    "default_icon": "img/icon-v1-34x34.png"
   },
-  "permissions": [
-    "clipboardRead",
-    "clipboardWrite",
-    "contextMenus",
-    "geolocation",
-    "cookies",
-    "storage",
-    "https://www.meetup.com/",
-    "https://*/"
-  ],
+  "icons": {
+    "16": "img/icon-v1-16x16.png",
+    "34": "img/icon-v1-34x34",
+    "48": "img/icon-v1-48x48.png",
+    "128": "img/icon-v1-128x128.png"
+  },
+  "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
