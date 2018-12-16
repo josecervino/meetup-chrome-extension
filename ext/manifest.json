@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Meetup Chrome Extension",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "A Chrome Extension that makes it easy to rmeotely manage your meetup groups and events.",
+  "homepage_url": "https://meetup.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -24,8 +24,9 @@
     "clipboardRead",
     "clipboardWrite",
     "contextMenus",
+    "geolocation",
     "cookies",
     "https://www.meetup.com/",
-    " https://*/"
+    "https://*/"
   ]
 }
