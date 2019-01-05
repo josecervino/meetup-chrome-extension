@@ -11,42 +11,44 @@ To use Chrome local storage: https://developer.chrome.com/extensions/storage
 
 ---
 
-## Project title
+## Meetup Chrome Extension
 
-A little info about your project and/ or overview that explains **what** the project is about.
+An open-source Chrome extension for Meetup account & group management.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+The project was intially conceptualized to streamline meetup.com's UX by creating a ubiquitously available service that allows for basic CRUD functionality on both the events you're a part of and groups you manage. The project is currently in its initial Spec phase and will have little to no maintenance beyond the bugs I come across in my personal use (sorry).
 
 ## Build status
-
-Build status of continus integration i.e. travis, appveyor etc. Ex. -
 
 [![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
 
 ## Code style
 
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![airbnb](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg?style=flat)](https://github.com/airbnb/javascript)
 
 ## Screenshots
 
-Include logo/demo screenshot etc.
+Coming soon.
 
 ## Tech/framework used
-
-Ex. -
-
 <b>Built with</b>
 
-- [Electron](https://electron.atom.io)
+- [Chrome Extension Webpack-React Boilerplate](https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate/tree/react)
+- [React](https://github.com/facebook/react)
+- [Webpacl](https://github.com/webpack)
+- [Babel](https://github.com/babel/babel)
 
 ## Features
 
-What makes your project stand out?
+1. Simple UX for managing your meetup account
+2. Attractive UI
+3. The only meetup account management chrome extension in existence
+- Stretch -
+4. Slack API integration
+5. Google Calendar API integration
+6. Database for your meetup groups
 
 ## Code Example
 
